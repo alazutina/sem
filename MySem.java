@@ -10,7 +10,7 @@ class Foo {
     private final Semaphore sem;
 
     public Foo() {
-        this.sem = new Semaphore(3);
+        this.sem = new Semaphore(1);
     }
 
     public void first(Runnable r) {
